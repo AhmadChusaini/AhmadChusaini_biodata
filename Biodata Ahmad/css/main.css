@@ -1,0 +1,170 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Vidaloka', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background-image: url(../gambar/bg.jpeg);
+    background-attachment: fixed;
+    /* kalau gambarnya pecah komentar bacgkround sizenya */
+    background-size: cover;
+}
+
+.navbar {
+    /* background-color: #1C1514; */
+    color: white;
+    padding: 40px 0;
+    z-index: 9999;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-item {
+    margin-left: 40px;
+}
+
+.circle-img {
+    position: absolute;
+    left: 0;
+    bottom: 120px;
+}
+
+.jumbotron {
+    margin-top: -10px;
+    padding-bottom: 100px;
+    /* background-color: #1C1514; */
+    background: transparent;
+}
+
+.jumbotron .hello {
+    font-weight: 300;
+}
+
+.jumbotron .name {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+.jumbotron img {
+    width: 60%;
+}
+
+.jumbotron a {
+    text-decoration: none;
+    color: white;
+}
+
+.tombol {
+    display: flex;
+    align-items: center;
+}
+
+#btn-emailsaya {
+    background-color: #158E42;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: -15px;
+    position: relative;
+}
+
+#btn-emailsaya:hover {
+    color: white;
+}
+
+#sosmed {
+    margin-left: 30px;
+}
+
+#sosmed i {
+    font-size: 25px;
+}
+
+
+/* checkbox dark mode */
+
+
+/* tentang saya */
+
+.tentang-saya {
+    overflow-x: hidden;
+    margin-top: -40px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    /* background-color: #201a19; */
+}
+
+.tentang-saya h2 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.tentang-saya hr {
+    width: 10px;
+    height: 10px;
+    background-color: #158E42;
+    border-radius: 100px;
+}
+
+.tentang-saya p {
+    text-justify: inherit;
+    margin-top: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.aboutme {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow-x: hidden;
+    margin-top: -40px;
+    padding-top: 100px;
+    color: white;
+    padding-bottom: 100px;
+    /* background-color: #1C1514; */
+}
+
+.aboutme h2 {
+    text-align: center;
+}
+
+.aboutme hr {
+    width: 10px;
+    height: 10px;
+    background-color: #158E42;
+    border-radius: 100px;
+}
+
+.aboutme img {
+    width: 100%;
+}
+
+.aboutme .card {
+    margin-top: 30px;
+    border: none;
+}
+
+#lihatPortfolio {
+    padding: 10px 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #158E42;
+}
+
+.tentang-saya .card {
+    margin-top: 30px;
+    border: none;
+}
